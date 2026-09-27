@@ -10,8 +10,8 @@ version = "1.0.0"
 gradlePlugin {
     plugins {
         register("clojureAot") {
-            id = "com.example.clojure-aot"
-            implementationClass = "com.example.clojure.ClojureAotPlugin"
+            id = "top.kzre.clojure-aot"
+            implementationClass = "top.kzre.clojureaotgradleplugin.ClojureAotPlugin"
         }
     }
 }
